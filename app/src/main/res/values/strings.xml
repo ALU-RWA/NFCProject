@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">NFCProject</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="department_prompt">Choose a Department</string>
+    <string-array name="Departments">
+        <item>Computer Science</item>
+        <item>IBT</item>
+        <item>GC</item>
+        <item>Entrepreneurship</item>
+    </string-array>
+
+    <string name="session_prompt">Choose a Session</string>
+    <string-array name="Sessions">
+        <item>Session 1</item>
+        <item>Session 2</item>
+    </string-array>
+</resources>

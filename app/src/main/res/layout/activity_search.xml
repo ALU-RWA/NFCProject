@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchActivity">
+
+    <EditText
+        android:id="@+id/edt_txt_std_id_tag_no"
+        android:hint="Tap Student ID Card"
+        android:textSize="20sp"
+        android:enabled="true"
+        android:textColor="@color/colorAccent"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_design"
+        android:drawableLeft="@drawable/ic_card_membership_black_24dp"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_txt_reg_no"
+        android:hint="Student Reg No"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_design"
+        android:drawableLeft="@drawable/ic_person_pin_black_24dp"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_txt_student_name"
+        android:hint="Student Name"
+        android:textSize="15sp"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_design"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_txt_password"
+        android:hint="Password"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_design"
+        android:drawableLeft="@drawable/ic_security_black_24dp"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/colorPrimaryDark"
+        android:inputType="textPassword"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_txt_email"
+        android:hint="Email"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_design"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/colorPrimaryDark"
+        android:inputType="textEmailAddress"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_update_student"
+        android:text="UPDATE"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_design"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
